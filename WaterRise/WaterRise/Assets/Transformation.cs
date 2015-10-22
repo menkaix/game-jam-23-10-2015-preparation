@@ -3,6 +3,12 @@ using System.Collections;
 
 public class Transformation : MonoBehaviour {
 
+	public const byte STATUS_NONE = 0 ;
+	public const byte STATUS_LEFT = 0 ;
+	public const byte STATUS_RIGHT = 0 ;
+	public const byte STATUS_DOWN = 0 ;
+
+
 	// Use this for initialization
 	void Start () {
 	
